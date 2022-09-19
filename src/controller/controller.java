@@ -40,6 +40,11 @@ private void listDemo()
 	{
 		System.out.println("the" + index + "the name is: " + nameList.get(index));
 	}
+
+String thisWasTheLastname = nameList.remove(nameList.size() - 1);
+
+System.out.println("There are now" + nameList.size() + " names in the list");
+System.out.println("we took out: " + thisWasTheLastname);
 }
 }
 
