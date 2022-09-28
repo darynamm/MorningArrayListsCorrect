@@ -1,6 +1,9 @@
 package controller;
 
 import java.util.Scanner;
+
+import monster.model.MarshmallowMonster;
+
 import java.util.ArrayList;
 
 public class controller
@@ -20,7 +23,8 @@ public void start()
 	
 	keyboardInput.close();
 }
-private void listDemo()
+
+public void listDemo()
 {
 	System.out.println("What is the word?");
 	String firtWord = keyboardInput.nextLine();
@@ -45,6 +49,18 @@ String thisWasTheLastname = nameList.remove(nameList.size() - 1);
 
 System.out.println("There are now" + nameList.size() + " names in the list");
 System.out.println("we took out: " + thisWasTheLastname);
+
+
+}
+{
+listDemo = randemo; 
+for (int index=0; index <10; index++)
+{
+	int randomSpot = (int) (Math.random() * listDemo.size())
+			randemo = listdemo.get(randomSpot);
+	Systemout.println("The random spot is: " + randomSpot);
+	System.out.println
+}
 }
 }
 
