@@ -52,6 +52,36 @@ int [] small = {9, 4, 31, 123, 76, 0, -3, -10};
 		System.out.print(number + "");
 	}
 }
+
+private void arrayListYes(String [] lists)
+{
+	ArrayList<String> arrayListYas = new ArrayList<String>();
+	
+	//["cat", "jumped", "on", "the", "mouse"]
+			
+		for (String loopt = "hey"; loopt.length() < lists.length; loopt ++)
+		{
+			String random = "the cat jumped";
+			
+			arrayListYas.add(random);
+		}
+}
+
+private void usingWrapperClass()
+{
+	ArrayList<Double> lotsOfNumbers = new ArrayList<Double>();
+	for (int index = 0; index < 400; index ++)
+	{
+		double random = Math.random();
+		lotsOfNumbers.add(random);
+		
+	}
+	selectionSort(lotsOfNumbers);
+	for (Double number : lotsOfNumbers)
+	{
+		System.out.print(number + " ");
+	}
+}
 private void selectionSort(String [] words)
 { 
 	for (int outerLoop = 0; outerLoop < words.length; outerLoop++)
